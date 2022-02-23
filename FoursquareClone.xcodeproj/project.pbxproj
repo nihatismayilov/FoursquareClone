@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D712BC98E932B6B31AA6879 /* Pods_FoursquareClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CEB19DFAE6402DFC442BE53 /* Pods_FoursquareClone.framework */; };
+		B865303227BFF4AB00A51BCF /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B865303127BFF4AB00A51BCF /* PlaceModel.swift */; };
 		B8BC9BC627BD317900D1FF2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BC9BC527BD317900D1FF2D /* AppDelegate.swift */; };
 		B8BC9BC827BD317900D1FF2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BC9BC727BD317900D1FF2D /* SceneDelegate.swift */; };
 		B8BC9BCA27BD317900D1FF2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BC9BC927BD317900D1FF2D /* ViewController.swift */; };
 		B8BC9BCD27BD317900D1FF2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8BC9BCB27BD317900D1FF2D /* Main.storyboard */; };
 		B8BC9BCF27BD317B00D1FF2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8BC9BCE27BD317B00D1FF2D /* Assets.xcassets */; };
 		B8BC9BD227BD317B00D1FF2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8BC9BD027BD317B00D1FF2D /* LaunchScreen.storyboard */; };
+		B8BC9BDA27BD405800D1FF2D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8BC9BD927BD405800D1FF2D /* GoogleService-Info.plist */; };
+		B8BC9BFC27BDB11F00D1FF2D /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BC9BFB27BDB11F00D1FF2D /* ListViewController.swift */; };
+		B8BC9BFE27BE2FD500D1FF2D /* AddPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BC9BFD27BE2FD500D1FF2D /* AddPlaceViewController.swift */; };
+		B8BC9C0027BE305400D1FF2D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BC9BFF27BE305400D1FF2D /* MapViewController.swift */; };
+		B8DA875227C01446004C641A /* ListDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DA875127C01446004C641A /* ListDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6CEB19DFAE6402DFC442BE53 /* Pods_FoursquareClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoursquareClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DC3C5A672CCD7D967E0FF9C /* Pods-FoursquareClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoursquareClone.debug.xcconfig"; path = "Target Support Files/Pods-FoursquareClone/Pods-FoursquareClone.debug.xcconfig"; sourceTree = "<group>"; };
+		B865303127BFF4AB00A51BCF /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 		B8BC9BC227BD317900D1FF2D /* FoursquareClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoursquareClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8BC9BC527BD317900D1FF2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8BC9BC727BD317900D1FF2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,12 @@
 		B8BC9BCE27BD317B00D1FF2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8BC9BD127BD317B00D1FF2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8BC9BD327BD317B00D1FF2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8BC9BD927BD405800D1FF2D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B8BC9BFB27BDB11F00D1FF2D /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		B8BC9BFD27BE2FD500D1FF2D /* AddPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlaceViewController.swift; sourceTree = "<group>"; };
+		B8BC9BFF27BE305400D1FF2D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		B8DA875127C01446004C641A /* ListDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailsVC.swift; sourceTree = "<group>"; };
+		C73B0F3CB64681A1B0D5A433 /* Pods-FoursquareClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoursquareClone.release.xcconfig"; path = "Target Support Files/Pods-FoursquareClone/Pods-FoursquareClone.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D712BC98E932B6B31AA6879 /* Pods_FoursquareClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CBE8D1947219A022E73B99B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CEB19DFAE6402DFC442BE53 /* Pods_FoursquareClone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4D80F7B9BBF34FB12A7B95C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DC3C5A672CCD7D967E0FF9C /* Pods-FoursquareClone.debug.xcconfig */,
+				C73B0F3CB64681A1B0D5A433 /* Pods-FoursquareClone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B8BC9BB927BD317900D1FF2D = {
 			isa = PBXGroup;
 			children = (
 				B8BC9BC427BD317900D1FF2D /* FoursquareClone */,
 				B8BC9BC327BD317900D1FF2D /* Products */,
+				B4D80F7B9BBF34FB12A7B95C /* Pods */,
+				1CBE8D1947219A022E73B99B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,10 +95,16 @@
 				B8BC9BC527BD317900D1FF2D /* AppDelegate.swift */,
 				B8BC9BC727BD317900D1FF2D /* SceneDelegate.swift */,
 				B8BC9BC927BD317900D1FF2D /* ViewController.swift */,
+				B8BC9BFB27BDB11F00D1FF2D /* ListViewController.swift */,
+				B8BC9BFD27BE2FD500D1FF2D /* AddPlaceViewController.swift */,
+				B8BC9BFF27BE305400D1FF2D /* MapViewController.swift */,
+				B865303127BFF4AB00A51BCF /* PlaceModel.swift */,
+				B8DA875127C01446004C641A /* ListDetailsVC.swift */,
 				B8BC9BCB27BD317900D1FF2D /* Main.storyboard */,
 				B8BC9BCE27BD317B00D1FF2D /* Assets.xcassets */,
 				B8BC9BD027BD317B00D1FF2D /* LaunchScreen.storyboard */,
 				B8BC9BD327BD317B00D1FF2D /* Info.plist */,
+				B8BC9BD927BD405800D1FF2D /* GoogleService-Info.plist */,
 			);
 			path = FoursquareClone;
 			sourceTree = "<group>";
@@ -74,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8BC9BD627BD317B00D1FF2D /* Build configuration list for PBXNativeTarget "FoursquareClone" */;
 			buildPhases = (
+				562945CEC3356B84676CBA78 /* [CP] Check Pods Manifest.lock */,
 				B8BC9BBE27BD317900D1FF2D /* Sources */,
 				B8BC9BBF27BD317900D1FF2D /* Frameworks */,
 				B8BC9BC027BD317900D1FF2D /* Resources */,
+				0F853D418FCAB8E71B629C86 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,10 +172,53 @@
 				B8BC9BD227BD317B00D1FF2D /* LaunchScreen.storyboard in Resources */,
 				B8BC9BCF27BD317B00D1FF2D /* Assets.xcassets in Resources */,
 				B8BC9BCD27BD317900D1FF2D /* Main.storyboard in Resources */,
+				B8BC9BDA27BD405800D1FF2D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F853D418FCAB8E71B629C86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoursquareClone/Pods-FoursquareClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoursquareClone/Pods-FoursquareClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoursquareClone/Pods-FoursquareClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		562945CEC3356B84676CBA78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoursquareClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B8BC9BBE27BD317900D1FF2D /* Sources */ = {
@@ -139,8 +226,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8BC9BCA27BD317900D1FF2D /* ViewController.swift in Sources */,
+				B8DA875227C01446004C641A /* ListDetailsVC.swift in Sources */,
+				B8BC9C0027BE305400D1FF2D /* MapViewController.swift in Sources */,
 				B8BC9BC627BD317900D1FF2D /* AppDelegate.swift in Sources */,
+				B8BC9BFC27BDB11F00D1FF2D /* ListViewController.swift in Sources */,
+				B865303227BFF4AB00A51BCF /* PlaceModel.swift in Sources */,
 				B8BC9BC827BD317900D1FF2D /* SceneDelegate.swift in Sources */,
+				B8BC9BFE27BE2FD500D1FF2D /* AddPlaceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,11 +376,13 @@
 		};
 		B8BC9BD727BD317B00D1FF2D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DC3C5A672CCD7D967E0FF9C /* Pods-FoursquareClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U243U99T75;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FoursquareClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -311,11 +405,13 @@
 		};
 		B8BC9BD827BD317B00D1FF2D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C73B0F3CB64681A1B0D5A433 /* Pods-FoursquareClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U243U99T75;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FoursquareClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
